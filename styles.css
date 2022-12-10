@@ -1,0 +1,198 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    color: black;
+    height: 1px;
+    background-color: black;
+    width: 50%;
+}
+
+li
+{
+    list-style: none;
+    position: relative;
+    right: 15px;
+}
+
+.highscores, .timer
+{
+    background-color: aquamarine;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.highscores:hover
+{
+    background-color: rgb(43, 84, 71);
+    color: white;
+}
+.main-section
+{
+    width: 55%;
+    margin-top: 10%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-bar
+{
+    display: flex;
+    
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.start
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.right-or-wrong
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+.start:hover
+{
+    background-color: rgb(161, 111, 161);
+}
+
+.button:hover
+{
+    background-color: rgb(161, 111, 161);
+
+}
+.button
+{
+    display: block;
+    text-align: left;
+    margin-top: 4px;
+    width:180px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.buttons-section
+{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph
+{
+    width: 50%;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.heading 
+{   font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.paragraph
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form p
+{
+    padding: 0px;
+    margin: 0px;
+}
+.nameForm
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    background-color: rgb(162, 134, 168);
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+.userNameInputLocked
+{
+    background-color: gray;
+}
+
+.hide
+{
+    display: none;
+}
+
+.visible
+{
+    display: block;
+}
+
+@media screen and (max-width: 900px)
+    {
+        .top-bar
+        {
+            display: block;
+            text-align: center;
+            width: 50%;
+            position: relative;
+            left: 25%;
+        }
+
+        .paragraph
+        {
+            width: 80%;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 500px)
+    {
+        .heading
+        {
+            font-size: x-large;
+            align-items: center;
+        }
+
+        .paragraph
+        {
+            width: 75%;
+            text-align: center;
+        }
+
+        .heading
+        {
+            font-size: large;}
+
+
+    }
